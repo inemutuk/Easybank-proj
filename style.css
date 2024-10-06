@@ -1795,6 +1795,21 @@ header .btn1{
 body{
   width: 484px;
 }
+.main1-hero a{
+  top: 20rem;
+  position: absolute;
+  left: 30%;
+  width:  220px;
+  padding: 4% 40px;
+  font-size: 1.3rem; 
+ 
+}
+#menuButton{
+  width: 32px;
+
+  font-size: 2rem;
+ 
+}
   
 }
 
