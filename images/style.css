@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  margin-left: -1rem;  
+  margin-bottom: 20rem;
+}
+
+  .sidebar .list1 {
+    font-weight: 600;
+    width: 100%;
+    margin-right: 0.1em;
+    font-size: 1rem;
+    color: black;
+  
+    
+}
+.sidebar a {
+    font-weight: 600;
+    width: 100%;
+    font-size: 1rem;
+    color: black;   
+}
+nav ul .list{
+  background-color: hsl(136,65%, 51%);
+  width: 200px;
+  height: 55px;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 20px 45px 45px inset hsl(233,8%, 62%);
+  font-weight: 500;  
+}
+
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+  
+    width: 300px;
+    background-color: rgb(192, 186, 186);
+    z-index: 999;
+    box-shadow:  -10px 0 10px rgba(0,0,0,0.1); 
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: green;
+    padding: 20px 32px;
+} 
+
+.sidebar .list1{
+    width: 100%;
+    padding-left: 2em;
+    padding-top: 2rem;
+   color: black;
+    
+}
+.sidebar #logo{
+    width: 100%;
+    padding-left: 2em;
+    
+}
+
+.sidebar .list1 :hover{
+    width: 100%;   
+}
+
+.section-body{
+  background-color: hsl(0, 0%, 98% );
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+   position: relative;
+   border: 1px solid red;
+
+}
+
+.welcome-image-section{
+  display: inline-block;
+  text-align: center;
+height: 38rem;
+}
+
+.welcome-image-section img{
+ width: 100%;
+ height: 48rem;
+ transform: translateY(-14rem);
+
+}
+
+.welcome-image-section::before{
+content: "";
+position: absolute;
+top: -12rem;
+right: 0;
+height: 60rem;
+height: 70rem;
+background-image: url(bg-intro-desktop.svg); 
+background-repeat: no-repeat;
+background-size: cover;
+
+
+} 
+
+.section-two img{
+ width: 600px; 
+
+
+}
+
+/************************* Welcome Section *********/
+/* .section-two{
+  position: absolute;
+} */
+
+.section-one{
+ margin-top: 7rem;
+ margin-left: 5rem;
+ width: 500px;
+}
+
+.section-one p{
+  width: 700px;
+  color: hsl(233,8%, 62%);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+ 
+ 
+ 
+}
+
+.section-one h1{
+  /* width: 300px; */
+  /* padding-bottom: 3rem; */
+  font-size: 2.9rem;
+  font-weight: 900px;
+  
+}
+
+.button-request{
+  background-color: hsl(136,65%, 51%);
+  width: 400px;
+  height: 60px;
+  padding: 15px 40px;
+  border-radius: 25px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 20px 45px 45px inset hsl(233,8%, 62%);
+  font-weight: 500; 
+
+}
+
+/******************* styling for Easy Bank Section***********************/
+/******************* styling for Easy Bank Section***********************/
+/******************* styling for Easy Bank Section***********************/
+
+.easybank{
+  background-color: hsl(220, 17%, 90%);
+  height: 800px;
+  border: 1px solid red;
+
+}
+
+.easybank-note h2{
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 2.8rem;
+
+}
+
+.easybank-note p{
+  text-align: center;
+font-size: 1.1rem;
+margin-top: 1rem;
+line-height: 1.8em;
+}
+
+
+  i.a, .b, .c, .d { 
+   
+ font-size: 50px;  
+border: 1px solid gray;
+padding: 50px;
+border-radius: 60%;
+color: rgb(133, 219, 133);
+    
+}
+
+.image-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  padding-top: 4rem;
+  padding-left: 6rem;
+
+
+}
+.a{
+  margin-left: 3rem;
+}
+
+.b{
+    margin-left: 9rem;
+}
+.c{
+  margin-left: 9rem;
+}
+.d{
+  margin-left: 7rem;
+}
+
+
+/* BANNER STYLING */
+/* BANNER STYLING */
+/* BANNER STYLING */
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5rem;
+
+
+}
+
+
+#first-online{
+  width: 280px;
+  padding-top: 2.3rem;
+  margin-left: 1rem;
+  
+ 
+  
+}
+
+#first-online h2{
+  font-size: 1rem;
+  color: green;
+  font-size: 1.6rem;
+  margin-left: 1.1rem;
+  margin-bottom: 1rem;
+     
+ }
+
+
+
+ /*****************************SECTION ARTICELS*************************************/
+ /*****************************SECTION ARTICELS*************************************/
+ /*****************************SECTION ARTICELS*************************************/
+ .latest-Articles{
+ width: 100%;
+ height: 800px;
+ padding-top: 2rem;
+ background-color: hsl(220, 16%, 96%);
+ }
+
+ .latest-Articles h1{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  
+ }
+
+ .container-article{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 3rem;
+  column-gap: 9px;
+  row-gap: 9px;
+ 
+
+ }
+
+ Article .image2{
+  max-width:  350px;
+ vertical-align: bottom;
+ }
+ Article .image1{
+  /* width:  250px; */
+  object-fit: cover;
+
+ }
+
+ Article span{
+display: block;
+line-height: 1.5em;
+ }
+
+ Article p{
+ font-size: 16px;
+ width: 260px;
+ line-height: 25px;
+ padding-top: 2rem;
+text-align: justify;
+
+   }
+
+   Article h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+   }
+
+   .span-small{
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+   }
+
+
+
+    /*****************************  FOOTER SECTION  *************************************/
+    /*****************************  FOOTER SECTION  *************************************/
+    /*****************************  FOOTER SECTION  *************************************/
+    .footer{
+      background: hsl(233, 24%, 26%);
+      width: 100%;
+      height: 350px;
+      padding-top: 9rem;
+      color: #fff;
+     
+
+      
+    }
+
+    .container-footer{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      color: #fff;
+      margin: 2px 90px;
+      
+    }
+
+    .footer-logo a {
+      color: aliceblue;
+   
+     
+    }
+
+    .about-menu span {
+      display: block;
+      line-height: 3em;
+      color: white;
+    }
+
+    .about-menu a, .career-span a{
+      color: #fff;
+    }
+
+    .career-span  span{
+      display: block;
+      line-height: 3em;
+      color: #fff;
+    }
+    .request a{
+      color: #fff;
+       width: 300px;
+     height: 200px;
+     padding: 10px 90px;
+     border-radius: 40px;
+     box-shadow: 10px 45px 40px inset hsl(136,65%, 51%);
+    }
+
+
+    .blog-menu a{
+  
+      color: white;
+    }
+
+
+
+
+
+    .footer .log1, .log2, .log3, .log4, .log5{
+      font-size: 20px;
+      color: #fff;
+    }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /****************** MEDIA QUERIES *************************/
+
+  #menuButton{
+    display: none;
+}
+
+@media screen and (max-width: 840px) {
+  #hideOnmobile{
+    display: none;
+    }
+  #menuButton{
+    display: block;
+  }
+
+  @media screen and (max-width: 400px){
+    #sidebar{
+       width: 100%; 
+    }
+    
+}
+
+}
+
